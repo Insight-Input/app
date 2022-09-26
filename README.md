@@ -1,10 +1,10 @@
 <div align="center">
 
   <img src="https://avatars.githubusercontent.com/u/114286661" alt="logo" width="200" height="auto" />
-  <h1>Insight Input: Project Presetation Website</h1>
+  <h1>Insight Input: Search Engine Demo</h1>
   
   <p>
-    This repo is Insight Input Project Representation Website.
+    Insight Input search engine powered by <a href="https://insightinput.com/sai">IISAI</a> & <a href="https://insightinput.com/aai">IIAAI</a>.
   </p>
   
   
