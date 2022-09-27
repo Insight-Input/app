@@ -6,13 +6,25 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.main{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -24vw -16vh 2px 1px #fff,30vw -30vh 2px 0px #fff,37vw -46vh 1px 3px #fff,44vw -40vh 2px 2px #fff,-7vw -39vh 0px 3px #fff,21vw 34vh 1px 1px #fff,-6vw -27vh 3px 0px #fff,-19vw 19vh 2px 0px #fff,-23vw 19vh 2px 0px #fff,49vw -18vh 2px 0px #fff,21vw 13vh 1px 0px #fff,-29vw -10vh 2px 3px #fff,-44vw 7vh 2px 3px #fff,20vw 3vh 3px 2px #fff,-39vw 29vh 2px 0px #fff,32vw -26vh 2px 3px #fff,32vw 31vh 0px 2px #fff,-28vw -39vh 3px 1px #fff,19vw -43vh 0px 0px #fff,40vw -31vh 3px 2px #fff,45vw 15vh 2px 1px #fff,26vw -44vh 2px 1px #fff,-7vw -33vh 0px 3px #fff,-42vw 30vh 3px 1px #fff,-25vw -36vh 0px 0px #fff,-25vw 2vh 2px 2px #fff,-44vw -1vh 0px 3px #fff,33vw 14vh 2px 1px #fff,43vw 48vh 1px 0px #fff,11vw -38vh 2px 2px #fff,44vw -18vh 0px 3px #fff,45vw 4vh 2px 2px #fff,-23vw -41vh 1px 1px #fff,15vw -42vh 1px 2px #fff,-45vw 23vh 1px 2px #fff,-8vw -30vh 0px 2px #fff,-3vw 23vh 2px 1px #fff,-8vw -22vh 2px 3px #fff,-41vw 20vh 0px 0px #fff,-9vw -13vh 0px 1px #fff,-5vw 34vh 3px 1px #fff,-22vw 34vh 2px 1px #fff,-20vw 31vh 0px 3px #fff,-28vw 49vh 2px 2px #fff,50vw -10vh 2px 0px #fff,-41vw 7vh 3px 3px #fff,39vw -30vh 2px 3px #fff,-1vw 34vh 2px 0px #fff,-4vw 50vh 0px 2px #fff,-46vw -41vh 0px 0px #fff,41vw -4vh 0px 3px #fff,-31vw -50vh 2px 2px #fff,-3vw -43vh 3px 1px #fff,0vw -44vh 1px 1px #fff,13vw 22vh 0px 1px #fff,17vw 0vh 0px 0px #fff,34vw -33vh 0px 0px #fff,-13vw -44vh 2px 2px #fff,6vw -32vh 3px 0px #fff,-45vw 1vh 0px 2px #fff,37vw -39vh 3px 2px #fff,2vw 23vh 1px 3px #fff,17vw -1vh 2px 1px #fff,37vw 0vh 1px 3px #fff,-22vw -14vh 3px 2px #fff,22vw -7vh 0px 3px #fff,35vw -29vh 2px 0px #fff,21vw -30vh 0px 2px #fff,36vw -50vh 1px 0px #fff,25vw -27vh 2px 0px #fff,13vw -1vh 2px 0px #fff,-21vw 42vh 3px 1px #fff,40vw 6vh 0px 0px #fff,-30vw 27vh 0px 2px #fff,23vw -17vh 3px 0px #fff,23vw 14vh 2px 2px #fff,40vw -8vh 1px 0px #fff,31vw 47vh 1px 0px #fff,10vw -39vh 0px 3px #fff,-50vw -19vh 0px 1px #fff,43vw -20vh 3px 1px #fff,-28vw 32vh 3px 0px #fff,-27vw 46vh 0px 2px #fff,-8vw -13vh 0px 2px #fff,0vw 4vh 1px 0px #fff,-25vw -15vh 0px 1px #fff,47vw -18vh 3px 3px #fff,27vw 21vh 3px 1px #fff,-12vw 28vh 3px 2px #fff,-10vw -7vh 0px 2px #fff,5vw -28vh 1px 2px #fff,-23vw -6vh 2px 2px #fff,-39vw -32vh 3px 1px #fff,-5vw -19vh 2px 2px #fff,-45vw 15vh 2px 0px #fff,28vw -16vh 2px 0px #fff,-18vw 38vh 3px 3px #fff,25vw 27vh 3px 2px #fff,12vw 16vh 2px 0px #fff,49vw 45vh 3px 2px #fff,-30vw -26vh 1px 2px #fff,-15vw -18vh 0px 1px #fff,-5vw -19vh 3px 3px #fff,40vw -2vh 1px 0px #fff,44vw -50vh 3px 1px #fff,-31vw 41vh 2px 3px #fff,3vw 1vh 3px 1px #fff,32vw -41vh 3px 2px #fff,10vw -32vh 3px 3px #fff,-41vw 26vh 2px 1px #fff,29vw -37vh 3px 0px #fff,-49vw -41vh 3px 1px #fff,-19vw 1vh 1px 1px #fff,-13vw -47vh 2px 1px #fff,-32vw 6vh 2px 0px #fff,-24vw -29vh 3px 1px #fff,39vw 45vh 1px 3px #fff,34vw -22vh 3px 0px #fff,8vw 43vh 0px 3px #fff,5vw -18vh 0px 1px #fff,-18vw 21vh 0px 2px #fff,27vw 29vh 1px 0px #fff,4vw 30vh 3px 3px #fff,-29vw -8vh 3px 2px #fff,10vw -23vh 1px 3px #fff,-22vw 1vh 1px 3px #fff,-9vw 3vh 3px 1px #fff,-47vw 11vh 0px 0px #fff,-25vw -40vh 1px 3px #fff,-14vw -50vh 3px 1px #fff,6vw -7vh 2px 2px #fff,-28vw -9vh 1px 2px #fff,-39vw 23vh 2px 2px #fff,28vw 36vh 1px 2px #fff,16vw -31vh 3px 3px #fff,31vw -27vh 0px 2px #fff,41vw -19vh 3px 2px #fff,10vw -42vh 0px 1px #fff,-21vw -31vh 3px 0px #fff,-16vw 2vh 1px 2px #fff,-42vw 4vh 2px 1px #fff,22vw 11vh 1px 3px #fff,30vw 35vh 0px 3px #fff,-18vw -45vh 0px 3px #fff,-8vw -12vh 2px 3px #fff,-4vw 11vh 0px 3px #fff,35vw -42vh 3px 3px #fff,27vw 16vh 1px 3px #fff,-25vw -20vh 1px 1px #fff,36vw 42vh 1px 2px #fff;
+    animation: zoom 15s alternate infinite;
 }
 
-* {
-  box-sizing: border-box;
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
 }
 
 @tailwind base;
