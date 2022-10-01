@@ -23,7 +23,7 @@
     border-color: #222;
   }
   .code {
-    background: #111;
+    background: rgb(38, 38, 38);
   }
   .logo img {
     filter: invert(1);

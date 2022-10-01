@@ -45,7 +45,7 @@ export default function Main() {
                     />
                 </div>
                 <form onSubmit={handleSubmit}>
-                    <input value={text} onChange={handleChange} type="text" placeholder='Type something EX:Jupitar and hit ENTER' name="search" id="searchInput" className='block mx-auto bg-white w-1/2 rounded-md p-2.5 text-black' />
+                    <input value={text} onChange={handleChange} type="text" placeholder='TYPE YOUR TEXT HERE' name="search" id="searchInput" className='block mx-auto bg-white w-1/2 xxs:w-4/5 rounded-md p-2.5 text-black' />
                 </form>
             </div>
             <ImageList tt={daata} isLoading={isLoading} />
