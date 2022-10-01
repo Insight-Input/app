@@ -15,12 +15,12 @@ export default function ImageList(props) {
                         item.items.map(item =>
                             <div key={i++} className=' w-1/4 mb-5 mt-5'>
                                 <div className=' w-full h-auto'>
-                                    <a className='text-black' href={item.links[0].href} target="_blank">
-                                        <img src={item.links[0].href} className='max-w-full max-h-full' />
+                                    <a className='text-black' rel="noreferrer" href={item.links[0].href} target="_blank">
+                                        <img src={item.links[0].href} alt={item.data[0].title} className='max-w-full max-h-full' />
                                     </a>
                                 </div>
                                 <h3 className='text-black text-center font-bold'>{item.data[0].title}</h3>
-                                <h3 className='text-center'><a target="_blank" href={'https://twitter.com/intent/tweet?url=' + item.links[0].href.replaceAll(' ', '%20') + '&text=' + item.data[0].title} className='text-cyan-400 font-bold'>Tweet</a > <a target="_blank" href={'https://www.facebook.com/sharer/sharer.php?u=' + item.links[0].href} className='font-bold text-blue-800'> Share</a></h3>
+                                <h3 className='text-center'><a target="_blank" rel="noreferrer" href={'https://twitter.com/intent/tweet?url=' + item.links[0].href.replaceAll(' ', '%20') + '&text=' + item.data[0].title} className='text-cyan-400 font-bold'>Tweet</a > <a target="_blank" rel="noreferrer" href={'https://www.facebook.com/sharer/sharer.php?u=' + item.links[0].href} className='font-bold text-blue-800'> Share</a></h3>
                             </div>
                         )
                 )
