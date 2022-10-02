@@ -1,5 +1,6 @@
 
 import React from 'react'
+import collection from '../pages/collection';
 
 const hideShare = (id) => {
     document.getElementById(id).classList.remove("vesible");
@@ -14,7 +15,8 @@ const showShare = (id) => {
 
 export default function ImageList(props) {
     if (props.isLoading) return <p className='text-center'>Loading...</p>
-    if (!props.tt) return <p className='text-center mt-5'>Type something EX: Jupiter and hit ENTER</p>
+    if (!props.tt) return <h1 className='text-center mt-5'>Type something EX: Jupiter and hit ENTER</h1>
+    if (props.text == "") return <h1 className='text-center mt-5'>Type something EX: Jupiter and hit ENTER</h1>
 
     let i = 0
 
@@ -28,7 +30,7 @@ export default function ImageList(props) {
                         item.items.map((item, index) => {
                             return (<div key={index} onMouseLeave={() => hideShare(`share${index}`)} onMouseOver={() => showShare(`share${index}`)} className=' md:w-1/4 sm:w-1/2 xxs:w-full bg-slate-900'>
                                 <div className=' w-full h-auto bg-slate-900'>
-                                    <a className='text-white' rel="noreferrer" href={item.links[0].href} target="_blank">
+                                    <a className='text-white' rel="noreferrer" href={item.links[0].href/* '/collection?url=' + item.href */} target="_blank">
                                         <img src={item.links[0].href} alt={item.data[0].title} className='min-w-full max-w-full max-h-full' />
                                     </a>
                                 </div>
