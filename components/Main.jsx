@@ -45,6 +45,7 @@ export default function Main() {
                         src="/whitetrans.png"
                         width={500}
                         height={500}
+                        alt="Logo"
                     />
                 </div>
                 <form onSubmit={handleSubmit}>
